@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"  # Set your desired region
+  region = "us-east-1"  # Set your desired region
   access_key = "AKIA46A62KETEWHLYJBO"
   secret_key = "L7bX6/XR8jzf7Q2EwiLKAxPhRTy8MiQdYcQz10IN"
   assume_role {
