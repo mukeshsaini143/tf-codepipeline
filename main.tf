@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"  # Set your desired region
-  #access_key = "AKIA46A62KETEWHLYJBO"
-  #secret_key = "L7bX6/XR8jzf7Q2EwiLKAxPhRTy8MiQdYcQz10IN"
+  access_key = "AKIA46A62KETIMG45G6E"
+  secret_key = "DAgJA3bh/Brk6IGIamhWSBocekOsxIbWqt5Nagn0"
   assume_role {
     role_arn = "arn:aws:iam::889122869542:role/ec2-full-access"
   }
