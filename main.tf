@@ -1,5 +1,4 @@
 provider "aws" {
-  #profile = "mukesh"
   region = "us-east-1"  # Set your desired region
   access_key = "AKIA46A62KETEWHLYJBO"
   secret_key = "L7bX6/XR8jzf7Q2EwiLKAxPhRTy8MiQdYcQz10IN"
@@ -9,8 +8,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "Testing_instance" {
-  ami           = "ami-0c7217cdde317cfec"  # Specify the AMI ID
-  instance_type = "t2.micro"               # Specify the instance type
+  ami = "ami-0c7217cdde317cfec"  # Specify the AMI ID
+  instance_type = "t2.micro"     # Specify the instance type
 
   tags = {
     Name = "TestingInstance"
