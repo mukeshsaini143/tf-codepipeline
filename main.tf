@@ -1,11 +1,4 @@
-terraform {
-  required_providers {
-    mycloud = {
-      source  = "mycorp/mycloud"
-      version = "~> 1.0"
-    }
-  }
-}
+
 provider "aws" {
   region = "us-east-1"  # Set your desired region
   access_key = "AKIA46A62KETIMG45G6E"
